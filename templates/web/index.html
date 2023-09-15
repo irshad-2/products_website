@@ -1,0 +1,67 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+{% comment %} {% load paginator_tags %} {% endcomment %}
+    <section id="home">
+        <section class="wrapper">
+            {% include 'includes/header.html' %}
+            <section class="spotlight">
+                <h3 class="fw-bold">Products</h3>
+                <div class="all-posts">
+                    <div class="post-section">
+                            {% for product in products %}
+                            <a style="color:#000; text-decoration:none;"href="{% url 'web:product' id=product.id %}">
+                            <div class="card" style="width: 20rem; margin-bottom: 15px;">
+                               
+                                <img src="{{product.image.url}}" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h6 class="card-title">{{product.brand}}</h6>
+                                  <h5 class="card-title fw-bold">{{product.title}}</h5>
+                                  <h5 class="card-title fw-bold">${{product.price}}</h5>
+                                  <p class="card-text">{{product.description}}</p>
+                                  {% for tag in product.categories.all %}
+                                  <a href="#" class="btn btn-secondary">{{tag.title}} </a>
+                                  {%  endfor %}
+                                </div>
+                              </div>
+                            </a>
+                             {% endfor %}
+                    </div>
+                    <div class="filter-section" id="hamburger-menu">
+                        <form action="">
+                            <input type="text" name="q" placeholder="Search anything..." />
+                            <p class="filter-head">Categories</p>
+                            <div class="filter">
+                                {% for category in categories %}
+                                <label class="checkbox">
+                                    <input type="checkbox"  value="{{category.id}}" name="category" />
+                                    <span class="label">{{category.title}}</span>
+                                </label>
+                                
+                                {% endfor %}
+                            </div>
+                            <p class="filter-head">Brands</p>
+                            <div class="filter">
+                            {% for brand in brands %}
+                                <label class="checkbox">
+                                    <input type="checkbox" name="brand" value="{{brand.id}}" />
+                                    <span class="label">{{brand.name}}</span>
+                                </label>
+                                {% endfor %}
+                            </div>
+                            <button type="submit" value="Filter" class="btn btn-dark" style="width:100% ;" >Filter</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+            <div id="overlay"></div>
+            <div id="close">
+                <img src="{% static 'images/icons/close.svg' %}" alt="" />
+            </div>
+        </section>
+    </section>
+
+
+    </body>
+</html>
+{% endblock %}

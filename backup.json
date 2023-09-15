@@ -1,0 +1,786 @@
+[
+    {
+        "model": "admin.logentry",
+        "pk": 1,
+        "fields": {
+            "action_time": "2023-05-05T13:01:13.421Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "1",
+            "object_repr": "accesory",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 2,
+        "fields": {
+            "action_time": "2023-05-05T13:01:36.355Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "1",
+            "object_repr": "adidas",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 3,
+        "fields": {
+            "action_time": "2023-05-05T13:02:16.751Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "2",
+            "object_repr": "accessories",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 4,
+        "fields": {
+            "action_time": "2023-05-05T13:08:37.614Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "3",
+            "object_repr": "Accessory",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 5,
+        "fields": {
+            "action_time": "2023-05-05T13:08:37.622Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "2",
+            "object_repr": "accessories",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 6,
+        "fields": {
+            "action_time": "2023-05-05T13:08:37.629Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "1",
+            "object_repr": "accesory",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 7,
+        "fields": {
+            "action_time": "2023-05-05T13:08:50.276Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "1",
+            "object_repr": "adidas",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 1,
+        "fields": {
+            "name": "Can add log entry",
+            "content_type": 1,
+            "codename": "add_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 2,
+        "fields": {
+            "name": "Can change log entry",
+            "content_type": 1,
+            "codename": "change_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 3,
+        "fields": {
+            "name": "Can delete log entry",
+            "content_type": 1,
+            "codename": "delete_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 4,
+        "fields": {
+            "name": "Can view log entry",
+            "content_type": 1,
+            "codename": "view_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 5,
+        "fields": {
+            "name": "Can add permission",
+            "content_type": 2,
+            "codename": "add_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 6,
+        "fields": {
+            "name": "Can change permission",
+            "content_type": 2,
+            "codename": "change_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 7,
+        "fields": {
+            "name": "Can delete permission",
+            "content_type": 2,
+            "codename": "delete_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 8,
+        "fields": {
+            "name": "Can view permission",
+            "content_type": 2,
+            "codename": "view_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 9,
+        "fields": {
+            "name": "Can add group",
+            "content_type": 3,
+            "codename": "add_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 10,
+        "fields": {
+            "name": "Can change group",
+            "content_type": 3,
+            "codename": "change_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 11,
+        "fields": {
+            "name": "Can delete group",
+            "content_type": 3,
+            "codename": "delete_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 12,
+        "fields": {
+            "name": "Can view group",
+            "content_type": 3,
+            "codename": "view_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 13,
+        "fields": {
+            "name": "Can add user",
+            "content_type": 4,
+            "codename": "add_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 14,
+        "fields": {
+            "name": "Can change user",
+            "content_type": 4,
+            "codename": "change_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 15,
+        "fields": {
+            "name": "Can delete user",
+            "content_type": 4,
+            "codename": "delete_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 16,
+        "fields": {
+            "name": "Can view user",
+            "content_type": 4,
+            "codename": "view_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 17,
+        "fields": {
+            "name": "Can add content type",
+            "content_type": 5,
+            "codename": "add_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 18,
+        "fields": {
+            "name": "Can change content type",
+            "content_type": 5,
+            "codename": "change_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 19,
+        "fields": {
+            "name": "Can delete content type",
+            "content_type": 5,
+            "codename": "delete_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 20,
+        "fields": {
+            "name": "Can view content type",
+            "content_type": 5,
+            "codename": "view_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 21,
+        "fields": {
+            "name": "Can add session",
+            "content_type": 6,
+            "codename": "add_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 22,
+        "fields": {
+            "name": "Can change session",
+            "content_type": 6,
+            "codename": "change_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 23,
+        "fields": {
+            "name": "Can delete session",
+            "content_type": 6,
+            "codename": "delete_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 24,
+        "fields": {
+            "name": "Can view session",
+            "content_type": 6,
+            "codename": "view_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 25,
+        "fields": {
+            "name": "Can add brand",
+            "content_type": 7,
+            "codename": "add_brand"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 26,
+        "fields": {
+            "name": "Can change brand",
+            "content_type": 7,
+            "codename": "change_brand"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 27,
+        "fields": {
+            "name": "Can delete brand",
+            "content_type": 7,
+            "codename": "delete_brand"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 28,
+        "fields": {
+            "name": "Can view brand",
+            "content_type": 7,
+            "codename": "view_brand"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 29,
+        "fields": {
+            "name": "Can add category",
+            "content_type": 8,
+            "codename": "add_category"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 30,
+        "fields": {
+            "name": "Can change category",
+            "content_type": 8,
+            "codename": "change_category"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 31,
+        "fields": {
+            "name": "Can delete category",
+            "content_type": 8,
+            "codename": "delete_category"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 32,
+        "fields": {
+            "name": "Can view category",
+            "content_type": 8,
+            "codename": "view_category"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 33,
+        "fields": {
+            "name": "Can add product",
+            "content_type": 9,
+            "codename": "add_product"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 34,
+        "fields": {
+            "name": "Can change product",
+            "content_type": 9,
+            "codename": "change_product"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 35,
+        "fields": {
+            "name": "Can delete product",
+            "content_type": 9,
+            "codename": "delete_product"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 36,
+        "fields": {
+            "name": "Can view product",
+            "content_type": 9,
+            "codename": "view_product"
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 1,
+        "fields": {
+            "password": "pbkdf2_sha256$600000$KyCBnfvKkEfrCyiRuZmkU6$arpEXzc3Td+ur7gyh3FRvWprk/TCuxqEIeyu7Q5T5iA=",
+            "last_login": "2023-05-05T13:08:23.746Z",
+            "is_superuser": true,
+            "username": "nikhil",
+            "first_name": "",
+            "last_name": "",
+            "email": "",
+            "is_staff": true,
+            "is_active": true,
+            "date_joined": "2023-05-05T12:59:11.288Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 2,
+        "fields": {
+            "password": "pbkdf2_sha256$600000$GsVAi4keA2HJVVlwZbzl16$La72hdJZRa5mxSqvMw7bZjqMB2hVzHlgSF9RbtFve/w=",
+            "last_login": "2023-05-06T17:33:38.230Z",
+            "is_superuser": true,
+            "username": "adidas",
+            "first_name": "",
+            "last_name": "",
+            "email": "",
+            "is_staff": true,
+            "is_active": true,
+            "date_joined": "2023-05-05T13:07:53.330Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 3,
+        "fields": {
+            "password": "pbkdf2_sha256$600000$Obmj4YNRAGJ4o0tFdMc4lO$7fu88Z6cUzfGYAI+77g0hIznEQ/245M/NsKVuiEltWE=",
+            "last_login": "2023-05-06T06:46:28.770Z",
+            "is_superuser": true,
+            "username": "madame",
+            "first_name": "",
+            "last_name": "",
+            "email": "",
+            "is_staff": true,
+            "is_active": true,
+            "date_joined": "2023-05-06T06:11:19.106Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 4,
+        "fields": {
+            "password": "pbkdf2_sha256$600000$pC5HOfhKJHXiingIy8lDOZ$WSRljXSFV4iBDYPaKRIH5nNZsqlsPcX7XogobXpdEHA=",
+            "last_login": "2023-05-06T07:25:59.044Z",
+            "is_superuser": true,
+            "username": "poco",
+            "first_name": "",
+            "last_name": "",
+            "email": "",
+            "is_staff": true,
+            "is_active": true,
+            "date_joined": "2023-05-06T07:25:15.670Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 5,
+        "fields": {
+            "password": "pbkdf2_sha256$600000$g1fAM8jLx0MEvnHalpLLy9$Dc4N71TGRU8MV0Aqy6PNlBa60HhQm5VINnw+dv0MA1M=",
+            "last_login": "2023-05-06T17:00:32.298Z",
+            "is_superuser": false,
+            "username": "jose",
+            "first_name": "",
+            "last_name": "",
+            "email": "nikhilantonyofficial@gmail.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2023-05-06T16:59:33.563Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 6,
+        "fields": {
+            "password": "pbkdf2_sha256$600000$umj3mfIa4hcigSPtmJqyTq$IaQfj7XGWdEaxbXZHSdk09PFxAqgCKzhlDlmEgE/y1A=",
+            "last_login": "2023-05-06T17:10:14.586Z",
+            "is_superuser": false,
+            "username": "joji",
+            "first_name": "",
+            "last_name": "",
+            "email": "joji@gmail.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2023-05-06T17:09:54.179Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "products.brand",
+        "pk": 2,
+        "fields": {
+            "name": "adidas",
+            "user": 2
+        }
+    },
+    {
+        "model": "products.brand",
+        "pk": 3,
+        "fields": {
+            "name": "madame",
+            "user": 3
+        }
+    },
+    {
+        "model": "products.brand",
+        "pk": 4,
+        "fields": {
+            "name": "joji",
+            "user": 6
+        }
+    },
+    {
+        "model": "products.category",
+        "pk": 4,
+        "fields": {
+            "title": "Shoe"
+        }
+    },
+    {
+        "model": "products.category",
+        "pk": 5,
+        "fields": {
+            "title": "Clothing"
+        }
+    },
+    {
+        "model": "products.category",
+        "pk": 6,
+        "fields": {
+            "title": "socks"
+        }
+    },
+    {
+        "model": "products.category",
+        "pk": 7,
+        "fields": {
+            "title": "Earrings"
+        }
+    },
+    {
+        "model": "products.category",
+        "pk": 8,
+        "fields": {
+            "title": "Necklace"
+        }
+    },
+    {
+        "model": "products.category",
+        "pk": 9,
+        "fields": {
+            "title": "power"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 5,
+        "fields": {
+            "title": "Stan Smith",
+            "description": "Badminton Shoes For Men  (Blue).\r\n\r\nThe Nivia Flash 2.0 Badminton shoes are perfect for players who play one level up. It is a combination of flexibility and stability that moves your game to the next level.",
+            "image": "products/10-bd-1191bl-10-nivia-blue-original-imagndzhu9sgpyzf.webp",
+            "price": "1.00",
+            "brand": 2,
+            "is_deleted": false,
+            "categories": [
+                4
+            ]
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 6,
+        "fields": {
+            "title": "Short sleeve Tshirt",
+            "description": "Men Sporty Polo Neck Grey T-Shirt\r\nImpeccably crafted adidas Design to Move Polo tee for men made with moisture-wicking climalite fabric to draw sweat away from your skin.",
+            "image": "products/m-fl5722-adidas-original-imafwyfa2zfhbyhn-bb.webp",
+            "price": "1.00",
+            "brand": 2,
+            "is_deleted": false,
+            "categories": [
+                5
+            ]
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 7,
+        "fields": {
+            "title": "Ankle Length Socks",
+            "description": "Original Cotton Flat Knit (AD-0735) (White/Grey Mel/Black) Men Solid Ankle Length  (Pack of 3)",
+            "image": "products/free-3-ad-0735-adidas-original-imagg7bbpyqtya8n.webp",
+            "price": "1.00",
+            "brand": 2,
+            "is_deleted": false,
+            "categories": [
+                6
+            ]
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 8,
+        "fields": {
+            "title": "Running Shoes",
+            "description": "GlideEase M Running Shoes For Men  (Black)",
+            "image": "products/-original-imagmfquwff5tkwz.webp",
+            "price": "1.00",
+            "brand": 2,
+            "is_deleted": false,
+            "categories": [
+                4
+            ]
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 9,
+        "fields": {
+            "title": "Sneakers For Men  (White)",
+            "description": "Color-White, Inner material-Sheep Napa,  Outer material-PU,  Ideal for - Men, Occasion- Casual,  Leather type- Top Grain, Sole material - Rubber.",
+            "image": "products/7-95000215-41-roamra-white-original-imag4ahytjmqdzz8-bb.webp",
+            "price": "23.00",
+            "brand": 2,
+            "is_deleted": false,
+            "categories": [
+                4
+            ]
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 10,
+        "fields": {
+            "title": "Men Typography Round Neck Black T-Shirt",
+            "description": "Aero Ready Heat Transfer at lower back body hem with rubber print and crew neck style.",
+            "image": "products/m-hg5811-adidas-original-imaghs67hhhvdyqx.webp",
+            "price": "1.00",
+            "brand": 2,
+            "is_deleted": false,
+            "categories": [
+                5
+            ]
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 11,
+        "fields": {
+            "title": "Jumpsuit",
+            "description": "Solid Wool High Neck Women's Full Length Jumpsuit",
+            "image": "products/xl-m2w31248-pink-madame-original-imagk2auvvwjt94s.webp",
+            "price": "1.00",
+            "brand": 3,
+            "is_deleted": false,
+            "categories": [
+                5
+            ]
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 12,
+        "fields": {
+            "title": "Jumpsuit",
+            "description": "Striped Women Jumpsuit",
+            "image": "products/s-m2w31244-green-madame-original-imagghvghnzangsk.webp",
+            "price": "1.00",
+            "brand": 3,
+            "is_deleted": false,
+            "categories": [
+                5
+            ]
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 13,
+        "fields": {
+            "title": "Earrings",
+            "description": "Spring Glass Hoop Earring",
+            "image": "products/us-er-203-madame-original-imagy8tnb2hsmv9y.webp",
+            "price": "1.00",
+            "brand": 3,
+            "is_deleted": false,
+            "categories": [
+                7
+            ]
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 14,
+        "fields": {
+            "title": "Necklace",
+            "description": "Mother of Pearl Gold-plated Plated Metal Necklace",
+            "image": "products/usnk890-necklace-madame-original-imag5jzqy5jzgp3k.webp",
+            "price": "1.00",
+            "brand": 3,
+            "is_deleted": false,
+            "categories": [
+                8
+            ]
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 15,
+        "fields": {
+            "title": "Earring",
+            "description": "Latest Design Antique Silver Earrings For Girls Fancy Party Wear Combo of 5 Silver, Alloy Earring Set",
+            "image": "products/na-esc5055-alysa-original-image5rbanwabuhg.webp",
+            "price": "1.00",
+            "brand": 3,
+            "is_deleted": false,
+            "categories": [
+                7
+            ]
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 16,
+        "fields": {
+            "title": "Necklace",
+            "description": "Gold-plated Plated Metal Layered",
+            "image": "products/usnk900-layered-madame-original-imag5jw2gb2ycmgz.webp",
+            "price": "1.00",
+            "brand": 3,
+            "is_deleted": false,
+            "categories": [
+                8
+            ]
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 17,
+        "fields": {
+            "title": "joji",
+            "description": "joji vabnd",
+            "image": "products/Screenshot_from_2023-05-06_21-51-15.png",
+            "price": "99.99",
+            "brand": 4,
+            "is_deleted": false,
+            "categories": [
+                9
+            ]
+        }
+    }
+]

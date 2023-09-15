@@ -1,0 +1,64 @@
+{% extends "base.html" %} {% load static %} {% block content %}
+<section class="wrapper">{%include 'includes/header.html' %}</section>
+<section class="u-align-center u-clearfix u-section-1" id="carousel_24d7">
+  <div class="u-clearfix u-sheet u-valign-middle-lg u-sheet-1">
+    <!--product--><!--product_options_json--><!--{"source":""}--><!--/product_options_json--><!--product_item-->
+    <div
+      class="u-align-center-md u-align-center-sm u-align-center-xs u-container-style u-expanded-width u-product u-white u-product-1"
+    >
+      <div class="u-container-layout u-valign-middle-xl u-container-layout-1">
+        <!--product_image-->
+        <img
+          src="{{instances.image.url}}"
+          alt=""
+          class="u-image u-image-default u-product-control u-image-1"
+        /><!--/product_image-->
+        <div
+          class="u-align-center u-container-style u-expanded-width-md u-expanded-width-sm u-expanded-width-xs u-group u-shape-rectangle u-group-1"
+        >
+          <div class="u-container-layout u-valign-middle u-container-layout-2">
+            <!--product_price-->
+            <div class="u-product-control u-product-price u-product-price-1">
+              <div class="u-price-wrapper u-spacing-10">
+                <!--product_old_price-->
+                <div
+                  class="u-hide-price u-old-price"
+                  style="text-decoration: line-through !important"
+                  wfd-invisible="true"
+                >
+                  <!--product_old_price_content-->$12<!--/product_old_price_content-->
+                </div>
+                <!--/product_old_price--><!--product_regular_price-->
+                <div class="u-price" style="font-size: 3rem; font-weight: 700">
+                  {{instances.title}}
+                </div>
+                <!--/product_regular_price-->
+              </div>
+            </div>
+            <!--/product_price--><!--product_title-->
+            <h2 class="u-product-control u-text u-text-default u-text-1">
+              <a class="u-product-title-link" href="#"
+                ><!--product_title_content-->{{instances.brand}}<!--/product_title_content--></a
+              >
+            </h2>
+            <!--/product_title--><!--product_content-->
+            <div class="u-product-control u-product-desc u-text u-text-2">
+              <!--product_content_content-->
+              <p>{{instances.description | safe | striptags }}</p>
+              <!--/product_content_content-->
+            </div>
+            <!--/product_content--><!--product_button--><!--options_json--><!--{"clickType":"add-to-cart","content":""}--><!--/options_json-->
+            <a
+              href="{% url 'web:index' %}"
+              class="u-border-2 u-border-black u-btn u-button-style u-hover-black u-none u-product-control u-text-black u-text-hover-white u-btn-1"
+              ><!--product_button_content-->Add to Cart<!--/product_button_content--></a
+            ><!--/product_button-->
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--/product_item--><!--/product-->
+  </div>
+</section>
+
+{% endblock %}

@@ -1,0 +1,50 @@
+{% extends "base.html" %} {% load static %} {% block content %}
+<section id="edit-post-home">
+  <section class="wrapper">
+    {% include 'includes/header.html' %}
+    <section class="spotlight">
+      <h3>Create new Product</h3>
+      <form
+        action=""
+        method="post"
+        enctype="multipart/form-data"
+        class="ajax redirect"
+      >
+        {% csrf_token %}
+        <div class="form-field">
+          <label for="{form.title.id_for_label"> {{form.title.label}} </label>
+          {{form.title}}
+        </div>
+        <div class="form-field">
+          <label for="{{form.description.label.id_for_label}}" class="subheads">
+            {{form.description.label}}
+          </label>
+          <div class="description">{{form.description}}</div>
+        </div>
+        <div class="form-field">
+          <label class="subheads" for="{{form.categories.label.id_for_label}}">
+            {{form.tags.label}}
+          </label>
+          {{form.tags}}
+        </div>
+        <div class="form-field">
+          <label for="{{form.price.label.id_for_label}}" class="subheads">
+            {{form.price.label}}
+          </label>
+          <div class="price">{{form.price}}</div>
+        </div>
+        <div class="form-field">
+          <label for="{{form.image.label.id_for_label}}" class="subheads">
+            {{form.image.label}}
+          </label>
+          {{form.image}}
+        </div>
+        <div class="form-field">
+          <input type="submit" value="Submit" />
+        </div>
+      </form>
+      {{form.media}}
+    </section>
+  </section>
+</section>
+{% endblock %}
